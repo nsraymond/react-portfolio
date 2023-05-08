@@ -2,6 +2,7 @@ import React from 'react'
 import todo from '../assets/todo.png';
 import calc from '../assets/calc.png';
 import port from '../assets/port.png';
+import img from '../assets/img.jpg';
 import multiplication from '../assets/multiplication.jpg';
 import weather from '../assets/weather.jpg';
 
@@ -38,6 +39,26 @@ const Projects = () => {
             </div>
           </div>
 
+          {/* grid item */}
+          <div style={{backgroundImage: `url(${img})`}} 
+         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/* hover effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Image Search App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://nsraymond-image-search.netlify.app/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View App</button>
+                </a>
+                <a href="https://github.com/nsraymond/Image-Search-App">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          
           {/* grid item */}
           <div style={{backgroundImage: `url(${multiplication})`}} 
          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
