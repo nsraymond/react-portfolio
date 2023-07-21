@@ -21,7 +21,7 @@ const Projects = () => {
 
           {/* grid item */}
           <div style={{backgroundImage: `url(${todo})`}} 
-         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -41,7 +41,7 @@ const Projects = () => {
 
           {/* grid item */}
           <div style={{backgroundImage: `url(${img})`}} 
-         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -61,7 +61,7 @@ const Projects = () => {
           
           {/* grid item */}
           <div style={{backgroundImage: `url(${multiplication})`}} 
-         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -81,7 +81,7 @@ const Projects = () => {
 
           {/* grid item */}
           <div style={{backgroundImage: `url(${weather})`}} 
-         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -101,7 +101,7 @@ const Projects = () => {
 
           {/* grid item */}
           <div style={{backgroundImage: `url(${calc})`}} 
-         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -123,7 +123,7 @@ const Projects = () => {
 
           {/* grid item */}
           <div style={{backgroundImage: `url(${port})`}} 
-         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>

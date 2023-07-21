@@ -3,7 +3,10 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter, FaInstagram} from 'rea
 
 import { Link } from 'react-scroll';
 import React from "react";
+
 const Navbar = () => {
+
+
 
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -51,7 +54,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-5 pt-6 left-0 w-30 h-100 bg-[#0a192f] flex flex-col justify-left items-left'
+            : 'absolute top-5 pt-6 left-0 w-full h-100 bg-[#0a192f] flex flex-col justify-left items-left'
         }
       >
         <li className='py-2 text-xl'>
