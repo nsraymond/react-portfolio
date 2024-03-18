@@ -61,6 +61,14 @@ const Skills = () => {
                   <p className='my-4 text-white'>EXPRESS JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f] pt-10'>
+                  <img className='w-20 mx-auto' src={Expressjs} alt="HTML icon" />
+                  <p className='my-4 text-white'>EXPRESS JS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f] pt-10'>
+                  <img className='w-20 mx-auto' src={Expressjs} alt="HTML icon" />
+                  <p className='my-4 text-white'>EXPRESS JS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f] pt-10'>
                   <img className='w-20 mx-auto' src={Ts} alt="HTML icon" />
                   <p className='my-4 text-white'>Typescript</p>
               </div>

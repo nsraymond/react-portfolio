@@ -17,10 +17,10 @@ const About = () => {
               <p>Hi. I'm Raymond, nice to meet you. Please take a look around</p>
             </div>
             <div>
-              <p className='font-bold'>I am passionate about building excellent Fronted Applications that improve
+              <p className='font-bold'>I am passionate about building excellent Web Applications that improve
               the lives of those around me. I specialize in creating software
               for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations using React.js and other relevant software technologies </p>  
+              way to large enterprise corporations using Node.js and other relevant software technologies </p>  
             </div>
           </div>
       </div>
