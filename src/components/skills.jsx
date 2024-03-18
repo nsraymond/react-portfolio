@@ -9,7 +9,8 @@ import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Nodejs from '../assets/node.png';
-// import Expressjs from '../assets/node.png';
+import Expressjs from '../assets/exxpress.png';
+import Ts from '../assets/ts.png';
 import Mongo from '../assets/mongo.png';
 
 const Skills = () => {
@@ -54,6 +55,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f] pt-10'>
                   <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
                   <p className='my-4 text-white'>MONGO DB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f] pt-10'>
+                  <img className='w-20 mx-auto' src={Expressjs} alt="HTML icon" />
+                  <p className='my-4 text-white'>EXPRESS JS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#0a192f] pt-10'>
+                  <img className='w-20 mx-auto' src={Ts} alt="HTML icon" />
+                  <p className='my-4 text-white'>Typescript</p>
               </div>
           </div>
       </div>

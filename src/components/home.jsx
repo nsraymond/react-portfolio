@@ -11,11 +11,12 @@ const Home = () => {
           Raymond Nsiegbunam
         </h1>
         <h2 className='text-3xl sm:text-7xl font-bold text-[#0a192f]'>
-          I'm a Frontend Developer
+          I'm a Software Engineer
         </h2>
         <p className='text-[#0a192f] py-4 max-w-[700px] font-bold'>
-          I am a Frontend developer who specializes in building and designing exceptional digital experiences. Currently, I’m focused on
-          building responsive Frontend Web Applications.
+        I am a Backend engineer with expertise in crafting robust digital solutions. 
+        My primary focus revolves around developing scalable backend web applications 
+        using server_side technologies.
         </p>
         <div>
           <button className='text-white bg-[#0a192f] group border-0 px-6 py-3 my-2 flex items-center hover:bg-blue-600 border-0'>

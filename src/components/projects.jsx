@@ -5,6 +5,10 @@ import port from '../assets/port.png';
 import img from '../assets/img.jpg';
 import multiplication from '../assets/multiplication.jpg';
 import weather from '../assets/weather.jpg';
+import locale from '../assets/locale.png';
+import blogging from '../assets/blogging.png';
+import tasks from '../assets/tasks.png';
+import order from '../assets/tasks.png'
 
 const Projects = () => {
   return (
@@ -19,6 +23,82 @@ const Projects = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 pb-20'>
         {/* <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4'> */}
 
+          {/* grid item */}
+          <div style={{backgroundImage: `url(${locale})`}} 
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/* hover effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Locale API Application
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://geo-locale.onrender.com">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View App</button>
+                </a>
+                <a href="https://github.com/nsraymond/geo_locale">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* grid item */}
+          <div style={{backgroundImage: `url(${tasks})`}} 
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/* hover effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Tasks Management Application
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://nsraymond-altsch-todo.onrender.com/views">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View App</button>
+                </a>
+                <a href="https://github.com/nsraymond/altsch_ejs_todo_assignment">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* grid item */}
+          <div style={{backgroundImage: `url(${blogging})`}} 
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/* hover effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Blogging API Application
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://nsraymond-altsch-blogging-api.onrender.com">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View App</button>
+                </a>
+                <a href="https://github.com/nsraymond/AltSchool_Blog-API">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* grid item */}
+          <div style={{backgroundImage: `url(${order})`}} 
+         className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/* hover effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Car ordering Mini App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://altsch-ordering-app.onrender.com/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View App</button>
+                </a>
+                <a href="https://github.com/nsraymond/altsch_ordering_app_assignment">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
           {/* grid item */}
           <div style={{backgroundImage: `url(${todo})`}} 
          className='hover:scale-105 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
